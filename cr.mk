@@ -60,7 +60,7 @@ endif
 
 ifdef GLUT
 ifdef WINDOWS
-LDFLAGS += glut32.lib
+LDFLAGS += freeglut.lib
 CFLAGS += -DGLUT_DISABLE_ATEXIT_HACK
 CXXFLAGS += -DGLUT_DISABLE_ATEXIT_HACK
 else
