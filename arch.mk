@@ -20,6 +20,10 @@ ifeq ($(ARCH), CYGWIN_NT5.1)
 ARCH=WIN_NT
 endif
 
+ifeq ($(ARCH), CYGWIN_NT6.1)
+ARCH=WIN_NT
+endif
+
 ifeq ($(MACHTYPE),i686)
 MACHTYPE=i386
 endif
