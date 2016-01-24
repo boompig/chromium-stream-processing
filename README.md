@@ -14,7 +14,7 @@ Paper is [here](https://graphics.stanford.edu/papers/cr/cr_lowquality.pdf)
     *   Visual Studio: https://www.visualstudio.com/
 2.  Add the Cygwin bin path (e.g., `C:\Cygwin64\bin`) to your `%PATH%`
     environment variable
-3.  Open up PowerShell
+3.  Open up a (Windows) command prompt
 4.  Go into the Visual Studio directory. E.g.,
     `cd "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC"`
 5.  Set the appropriate build environment variables for your target OS using
